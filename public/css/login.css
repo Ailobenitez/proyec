@@ -1,0 +1,20 @@
+main{
+    display: block;
+    background-color: rgb(154, 255, 154);
+    padding: 5%;
+
+}
+form{
+    text-decoration: solid black;
+}
+  
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+  }
+    
+    footer{
+        background-color: #CE93D8;
+    }

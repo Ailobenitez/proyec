@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://resize.cdn.otakumode.com/ex/640.400/1.329.826.518/u/1adf382c3c764a378e48aab0ba63610b.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+main{
+    background-color: rgb(143, 243, 148);
+    display:flexbox;
+    flex-direction: row-reverse;
+}
+button{
+    color: #fff; 
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%); 
+    border: none; 
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    transition : 1000ms; 
+    transform: translateY(0); 
+    }
+    
+    button:hover{ 
+    transition : 1000ms; 
+    transform : translateY(-6px); 
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%); 
+    color: #ffffff; 
+    border: none; 
+    }
+h1{
+    text-align: center; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68
+}
+p{
+    font-style: oblique;
+}
+h5{
+    text-align: center; 
+    font-weight:bold; 
+    font-size: 30px;
+    color: black;
+}
+    
+footer{
+    background-color: #CE93D8;
+}
