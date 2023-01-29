@@ -26,6 +26,6 @@ app.get('/cookie',function(req, res){
 });*/
 app.use(express.static(path.resolve(__dirname, './public')));//vuelve publica la carpeta public
 app.get("/",(req,res)=>{
-  res.sendFile(path.join(__dirname,"/src/views/inicio.html"))
+  res.sendFile(path.join(__dirname,"/src/views/inicio.ejs"))
 });
 app.listen(300,()=>console.log("server corriendo"));
